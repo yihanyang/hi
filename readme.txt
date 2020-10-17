@@ -10,37 +10,37 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
-*/10
+10/10
 - 1/1 Readme
 - 2/2 Basic HTML content
 - 1/1 Basic CSS styling
 - 1/1 Advanced feature
 - 2/2 Responsive layout
-- */1 Passes validation checks
+- 1/1 Passes validation checks
 - 2/2 Embraces spirit of the assignment
 
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
-    1. At least one image, with descriptive alt attribute(s)
-    2. Appropriate headings and paragraph text
-    3. Links to external page(s)
-    4. Multiple pages, with appropriate navigation between them
-    5. Semantic HTML tags like aside or footer
-    6. Adding custom icons from Google Material Icons or Font Awesome
+    1. At least one image, with descriptive alt attribute(s): I put several images with alt attributes.
+    2. Appropriate headings and paragraph text: yes
+    3. Links to external page(s): click the bird logo, which links to the medium.com
+    4. Multiple pages, with appropriate navigation between them: yes, home page to design page, and design page back to the home page.
+    5. Semantic HTML tags like aside or footer: yes
+    6. Adding custom icons from Google Material Icons or Font Awesome: add several icons.
 
 
 
 (b) CSS features
-    1. Modifying padding and margins to indent content and enhance readability
-    2. Modifying link, text color, or other colors to be visually appealing, perhaps with one of the pallette creators in the Resources section.
+    1. Modifying padding and margins to indent content and enhance readability: yes
+    2. Modifying link, text color, or other colors to be visually appealing, perhaps with one of the pallette creators in the Resources section: yess
     3. I'm not sure about this one, but I did used bootstrap to organize my web page layout.
-    4. Adding custom font(s) from Google fonts to add more personality (make sure to include appropriate fallbacks)
+    4. Adding custom font(s) from Google fonts to add more personality (make sure to include appropriate fallbacks): yesss
 
 
 (c) Advanced features
-    1. Embedded HTML5 media, like video or audio, with fallbacks
-    2. Leveraging nested selectors to specify format
+    1. Embedded HTML5 media, like video or audio, with fallbacks: yess, click design, it leads to the page embeded with video.
+    2. Leveraging nested selectors to specify format: yesss
 
 3. How long, in hours, did it take you to complete this assignment?
     About 12 hours 
