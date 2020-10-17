@@ -11,39 +11,52 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
 */10
-- */1 Readme
-- */2 Basic HTML content
-- */1 Basic CSS styling
-- */1 Advanced feature
-- */2 Responsive layout
+- 1/1 Readme
+- 2/2 Basic HTML content
+- 1/1 Basic CSS styling
+- 1/1 Advanced feature
+- 2/2 Responsive layout
 - */1 Passes validation checks
-- */2 Embraces spirit of the assignment
+- 2/2 Embraces spirit of the assignment
 
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
+    1. At least one image, with descriptive alt attribute(s)
+    2. Appropriate headings and paragraph text
+    3. Links to external page(s)
+    4. Multiple pages, with appropriate navigation between them
+    5. Semantic HTML tags like aside or footer
+    6. Adding custom icons from Google Material Icons or Font Awesome
 
 
 
 (b) CSS features
-
+    1. Modifying padding and margins to indent content and enhance readability
+    2. Modifying link, text color, or other colors to be visually appealing, perhaps with one of the pallette creators in the Resources section.
+    3. I'm not sure about this one, but I did used bootstrap to organize my web page layout.
+    4. Adding custom font(s) from Google fonts to add more personality (make sure to include appropriate fallbacks)
 
 
 (c) Advanced features
-
-
+    1. Embedded HTML5 media, like video or audio, with fallbacks
+    2. Leveraging nested selectors to specify format
 
 3. How long, in hours, did it take you to complete this assignment?
+    About 12 hours 
 
 
 
 4. What online resources did you consult when completing this assignment? (list specific URLs)
+   https://www.iconfinder.com/
+   https://fonts.google.com/
 
 
 
 5. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
-
+   I discussed the color choices with my boyfriends lol
 
 
 6. Is there anything special we need to know in order to run your code?
+   Run the index.html(home page) first, the Design button is related to another html page and the project picture below is linked to another website.
 
