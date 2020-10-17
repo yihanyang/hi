@@ -1,71 +1,74 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+
+
 *{
-    margin: 0;
-    padding:0;
     box-sizing:border-box;
 }
+
+#icon{
+    height: 20px;
+    width: 20px;
+  }
 #brdyy{
-    height: 150px;
-    width: 150px;
+    position: fixed;
+    z-index: 5;
+    margin-top: 30px;
+    height: 100px;
+    width: 100px;
 }
 
-body{
-    margin: 0 auto;
-    max-width: 1100px;    
+body{  
     padding: 0 3rem;
     background-color: blanchedalmond;
 
 }
 
+
 nav{
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
     list-style: none;
 }
-.right_menu ul{
-    margin-left: 441px;
+.right_menu{
+    z-index: 5;
+    position: fixed;
+    text-align: right;
+    margin-top: 45px;
     word-spacing: 3em;
+    display: inline-block;
 }
-.right_menu ul li{
+.right_menu li{
     font-family:'Ubuntu', sans-serif;
     font-weight: bold;
     font-size: 24px;
-    margin: 100px 6px;
     padding: 6px 6px;
-    margin: 50px 6px;
-    align-content: center;
-    display: inline-flex;
+    display: inline-block;
     list-style: none;  
 }
 
-.right_menu ul li a{
+.right_menu li a{
     color: #D4abc1;
     border-top: 6px solid transparent;
     border-bottom: 6px solid transparent;
     transition: border 0.3s;
 }
-.right_menu ul li a:hover{
+.right_menu li a:hover{
     border-top: 6px solid #D4abc1;
     border-bottom: 6px solid #D4abc1;
 }
 header{
-    margin-top: 200px;
+    margin-top: 300px;
     z-index: 10;
     line-height: 6em;
+    text-align: left;
 }
+/*
 #decoration{
     display: inline;
     z-index: -5;
     position: absolute;
-    align-items: center;
-    margin-left: 0px;
-    margin-right: 40px;
-    top: 150px;
-    bottom: 50px;
 }
+*/
 header h1{
     font-size: 70px;
     font-family: 'Ubuntu', sans-serif;
@@ -75,26 +78,57 @@ header h1{
 header h2{
     font-size: 45px;
     font-family: 'Ubuntu', sans-serif;
-    olor: black;
+    color: black;
     opacity: 70%;
     font-weight: 400;
 }
-header p{
+header h3{
     color: grey;
     font-size: 25px;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 200;
-    width: 700px;
     line-height: 2em;
-    margin-bottom: 4rem;
 
+}
+
+#aside{
+    margin-top: 425px;
+    background-color: #D4abc1;
+    text-align: center;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    word-spacing: 8px;
+    font-size: 16px;
+}
+
+#project a img{
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    transition: border 0.3s;
+    margin:140px 20px 150px 10px;
+}
+#b{
+    height:290px;
+    width: 420px;
+}
+
+
+#project a :hover{
+    border-top: 8px solid #D4abc1;
+    border-bottom: 8px solid #D4abc1;
+}
+
+#project div h1{
+    font-size: 70px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #D4abc1;
+    font-weight: 400;
+    margin-top: 200px;
 }
 
 footer{
     background-color: #D4abc1;
-    width: 1050px;
-    height: 160px;
-    margin: 0 auto;
+    height: 180px;
 }
 footer div{
     font-size: 50px;
@@ -102,12 +136,20 @@ footer div{
     font-family: 'Piedra', cursive;
     color: white;
     text-align: center;
-    margin-top: 150px;
 }
-footer p{
-    font-size: 20px;
+
+footer h4{
+    font-size: 18px;
     font-weight:100;
     font-family:  'Ubuntu', sans-serif;
-    color: grey;
+    color: black;
+    opacity: 80%;
+    z-index: 1;
     text-align: center;
+}
+
+video{
+    margin: 200px 0px;
+    height: 100%;
+    width: 100%;
 }
